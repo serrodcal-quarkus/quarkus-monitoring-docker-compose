@@ -4,6 +4,15 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Running all the stack with docker compose
+
+You can run the stack using:
+```shell script
+docker compose up
+```
+
+Then, send request to `http://localhost:8080/hello`.
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
